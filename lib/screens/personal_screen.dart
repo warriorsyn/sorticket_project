@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:sorticket/widget/bottom_navigator.dart';
+import 'package:sorticket/widget/generic_card.dart';
 
 class PersonalScreen extends StatelessWidget {
   @override
@@ -60,7 +62,8 @@ class PersonalScreen extends StatelessWidget {
           ),
         ),
       ),
-      body: Container(),
+      body: GenericCard(),
+      bottomNavigationBar: BottomNavigator(),
     );
   }
 }
